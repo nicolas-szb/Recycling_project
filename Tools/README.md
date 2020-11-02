@@ -2,6 +2,10 @@
 
 OIDv4_ToolKit allows you to download annotated images for detection or classification models.<br/> => https://github.com/EscVM/OIDv4_ToolKit
 
+## images_resize.py
+
+images_resize allows you to resize your images in order to reduce weights of your global images folder.
+
 ## images_augmentation.py
 
 images_augmentation allows you to perform data augmentation if you do not have enough images for your training.<br/>
