@@ -10,7 +10,7 @@ target = int(input("Maximum dimension: ")) #1280 is good
 print("Generating image(s)...")
 print()
 
-imageFiles = [ f for f in listdir(mypath) if isfile(join(mypath,f)) and (f.endswith("G") or f.endswith("g")) ]
+imageFiles = [ f for f in listdir(mypath_original) if isfile(join(mypath_original,f)) and (f.endswith("G") or f.endswith("g")) ]
 
 for im in tqdm(imageFiles) :
     im1 = Image.open(join(mypath_original, im))
