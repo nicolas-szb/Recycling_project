@@ -2,6 +2,7 @@
 With the different categories of trash in our homes, waste sorting can be complicated. The aim of this project is to create a model which allows to differentiate 
 the categories of waste and which returns to the user the corresponding waste category to use.
 
+
 ## First Step: Create dataset
 The model needs labeled images of trash for training - glass bottles, plastic bottles, metal cans, paper, etc.
 
@@ -19,7 +20,7 @@ OIDv4_ToolKit allows to download pre-labeled images from https://storage.googlea
 But every subcategories don't exist and in the "bottle" category you can find glass or plastic bottles.
 Don't hesitate to download more thant the number of needed picture because some won't be interesting.
 
-I use about 800 pictures for a first test.
+I downloaded about 1000 images for this first test.
 
 More information in [Tools folder](https://github.com/nicolas-szb/Recycling_project/tree/master/Tools).
 
@@ -74,3 +75,6 @@ In my case, "Glass" is not a category so I created by myself as following:
 This is a very long activity when about 2000 pictures per classe are needed.
 
 More information in [Tools folder](https://github.com/nicolas-szb/Recycling_project/tree/master/Tools).
+
+### Conclusion
+I finally collected and labeled 721 images which will be used for a first one-classe Yolov3 model.
