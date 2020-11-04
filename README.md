@@ -52,4 +52,12 @@ If you don't have enough pictures, you can perform a data augmentation. It can b
 # In the folder containing images_augmentation.py
 python images_augmentation.py
 ```
+
+In the example below, I choosen the previous resized picture and applied 4 transformations on it:
+
+| ![augmented_1_image](https://github.com/nicolas-szb/Recycling_project/blob/master/data/presentation/augmented_1_image.jpg) | ![augmented_2_image](https://github.com/nicolas-szb/Recycling_project/blob/master/data/presentation/augmented_2_image.jpg) |
+|---|---|
+| ![augmented_3_image](https://github.com/nicolas-szb/Recycling_project/blob/master/data/presentation/augmented_3_image.jpg) | ![augmented_4_image](https://github.com/nicolas-szb/Recycling_project/blob/master/data/presentation/augmented_4_image.jpg) |
+
+
 You can find the code in [Tools folder](https://github.com/nicolas-szb/Recycling_project/blob/master/Tools/images_augmentation.py).
