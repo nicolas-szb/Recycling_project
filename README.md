@@ -21,9 +21,9 @@ Don't hesitate to download more thant the number of needed picture because some 
 
 I use about 800 pictures for a first test.
 
-More information in [Tools folder](https://github.com/nicolas-szb/Recycling_project/tree/master/Tools/OIDv4_ToolKit).
+More information in [Tools folder](https://github.com/nicolas-szb/Recycling_project/tree/master/Tools).
 
-### Resize images
+### Resizing images
 You can resize images in order to reduce the final weight of the pictures folder with the following command in terminal. You only must choose the maximum dimension value and the other dimension will be proportional:
 ```bash
 # In the folder containing images_resize.py
@@ -46,7 +46,7 @@ Example of resized picture:
 
 You can find the code in [Tools folder](https://github.com/nicolas-szb/Recycling_project/blob/master/Tools/images_resize.py).
 
-### Data augmentation
+### Performing data augmentation
 If you don't have enough pictures, you can perform a data augmentation. It can be very interesting because you should preferably have 2000 different images per classe if you want a well trained model. 
 ```bash
 # In the folder containing images_augmentation.py
@@ -61,3 +61,16 @@ In the example below, I choosen the previous resized picture and applied 4 trans
 
 
 You can find the code in [Tools folder](https://github.com/nicolas-szb/Recycling_project/blob/master/Tools/images_augmentation.py).
+
+### Creating images annotations
+labelImg is a great tool to label your custom images. OIDv4_ToolKit downloads images and associated labels but when your custom category is not in the "predefini" list, you have to manually annotate images.
+
+In my case, "Glass" is not a category so I created by myself as following:
+
+| ![labeled_image](https://github.com/nicolas-szb/Recycling_project/blob/master/data/presentation/labeled_image.jpeg) |
+|---|
+
+
+This is a very long activity specially when about 2000 pictures per classe are needed.
+
+More information in [Tools folder](https://github.com/nicolas-szb/Recycling_project/tree/master/Tools).
