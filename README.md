@@ -22,7 +22,7 @@ Don't hesitate to download more thant the number of needed picture because some 
 
 I downloaded about 1000 images for this first test.
 
-More information in [Tools folder](https://github.com/nicolas-szb/Recycling_project/tree/master/Tools).
+More information about OIDv4_ToolKit in [Tools folder](https://github.com/nicolas-szb/Recycling_project/tree/master/Tools).
 
 ### Resizing images
 You can resize images in order to reduce the final weight of the pictures folder with the following command in terminal. You only must choose the maximum dimension value and the other dimension will be proportional:
@@ -74,7 +74,7 @@ In my case, "Glass" is not a category so I created by myself as following:
 
 This is a very long activity when about 2000 pictures per classe are needed.
 
-More information in [Tools folder](https://github.com/nicolas-szb/Recycling_project/tree/master/Tools).
+More information about labelImg in [Tools folder](https://github.com/nicolas-szb/Recycling_project/tree/master/Tools).
 
 ### Conclusion
 I finally collected and labeled 721 images which will be used for a first one-classe Yolov3 model.
