@@ -71,6 +71,6 @@ In my case, "Glass" is not a category so I created by myself as following:
 |---|
 
 
-This is a very long activity specially when about 2000 pictures per classe are needed.
+This is a very long activity when about 2000 pictures per classe are needed.
 
 More information in [Tools folder](https://github.com/nicolas-szb/Recycling_project/tree/master/Tools).
