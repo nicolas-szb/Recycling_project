@@ -78,3 +78,9 @@ More information about labelImg in [Tools folder](https://github.com/nicolas-szb
 
 ### Conclusion
 I finally collected and labeled 721 images which will be used for a first one-class Yolov3 model.
+
+
+## Second Step: Create a first basic model
+I trained a first model with the 721 labeled images of glass-made objects using Google Colab GPU.
+
+I followed the tutorial of **THE AI Guy** youtube channel that you can find [here](https://www.youtube.com/watch?v=10joRJt39Ns&t=1356s&ab_channel=TheAIGuy).
