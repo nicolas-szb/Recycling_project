@@ -21,4 +21,4 @@ You can see a quick tutorial by Joseph Nelson [here](https://blog.roboflow.com/l
 
 Object-Detection-API is a repository thatimplements Yolov3 using TensorFlow 2.0 and creates two easy-to-use APIs that you can integrate into web or mobile applications.
 
-You can find the original repository I took from theAIGuysCode's [here](https://github.com/theAIGuysCode/Object-Detection-API).
+You can find the original repository that I took from theAIGuysCode [here](https://github.com/theAIGuysCode/Object-Detection-API).
