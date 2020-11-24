@@ -83,4 +83,4 @@ I finally collected and labeled 721 images which will be used for a first one-cl
 ## Second Step: Create a first basic model
 I trained a first model with the 721 labeled images of glass-made objects using Google Colab GPU. I followed the tutorial of **The AI Guy** youtube channel that you can find [here](https://www.youtube.com/watch?v=10joRJt39Ns&t=1356s&ab_channel=TheAIGuy).
 
-I use a Jupyter Notebook on Google Colab to train my model and I use **Object-Detection-API** in Tools to test and integrate my model with differents media supports.
+I use a Jupyter Notebook on Google Colab to train my model and I use **Object-Detection-API** in Tools to test and integrate my model with differents media supports. You will not see all the steps between the tutorial and my code but only my final version.
