@@ -86,4 +86,16 @@ I trained a first model with the 721 labeled images of glass-made objects using 
 I use a Jupyter Notebook on Google Colab to train my model and I use **Object-Detection-API** in Tools to test and integrate my model with differents media supports.
 
 My internet connection is very slow so I decided to download 'darknet' and 'darknet53.conv.74' once and transfered them on my Google Drive.
-You can find my code as recycling.ipynb.
+
+When I run my code, I copy every files I need from Google Drive to Darknet according to this following organisation:
+
+| ![organisation](https://github.com/nicolas-szb/Recycling_project/blob/master/data/presentation/darknet_organisation.png) |
+|---|
+
+You can find my code [here](https://github.com/nicolas-szb/Recycling_project/blob/master/recycling.ipynb). 
+
+### Conclusion
+This first Yolov3 model, which must detect one class: **Verre**, manages to detect glass bottles.
+
+But, because this model was mostly trained with beer or glass bottles and with only one labeled category, anything that looks like a bottle is categorized as **Verre**.
+
