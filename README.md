@@ -98,4 +98,3 @@ You can find my code [here](https://github.com/nicolas-szb/Recycling_project/blo
 This first Yolov3 model, which must detect one class: **Verre**, manages to detect glass bottles.
 
 But, because this model was mostly trained with beer or glass bottles and with only one labeled category, anything that looks like a bottle is categorized as **Verre**.
-
