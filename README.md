@@ -83,9 +83,8 @@ I finally collected and labeled 721 images which will be used for a first one-cl
 ## Second Step: Create a first basic model
 I trained a first model with the 721 labeled images of glass-made objects using Google Colab GPU. I followed the tutorial of **The AI Guy** youtube channel that you can find [here](https://www.youtube.com/watch?v=10joRJt39Ns&t=1356s&ab_channel=TheAIGuy).
 
-I use a Jupyter Notebook on Google Colab to train my model and I use **Object-Detection-API** in Tools to test and integrate my model with differents media supports.
-
-My internet connection is very slow so I decided to download 'darknet' and 'darknet53.conv.74' once and transfered them on my Google Drive.
+### Coding model
+I use a Jupyter Notebook on Google Colab to train my model. My internet connection is very slow so I decided to download 'darknet' and 'darknet53.conv.74' once and transfered them on my Google Drive.
 
 When I run my code, I copy every files I need from Google Drive to Darknet according to this following organisation:
 
@@ -94,7 +93,36 @@ When I run my code, I copy every files I need from Google Drive to Darknet accor
 
 You can find my code [here](https://github.com/nicolas-szb/Recycling_project/blob/master/recycling.ipynb). 
 
+### Testing model
+I use **Object-Detection-API** in Tools to test and integrate my model with differents media supports.
+
+The **yolov3.weights** file is from your trained model but you have to convert this YoloV3 weights in TensorFlow weights with ```load_weights.py```.
+You can follow this [README](https://github.com/nicolas-szb/Recycling_project/blob/master/Tools/Object-Detection-API/README.md) for further information.
+
+You must add **recycling.names** in **Object-Detection-API/data/labels/** and **yolov3.tf** in **Object-Detection-API/weights/**.
+
+```bash
+# For using model with webcam
+# In Object-Detection-API Folder
+python detect_video.py --video 0 --weights ./weights/yolov3.tf --classes ./data/labels/recycling.names --num_classes 1
+```
+
 ### Conclusion
 This first Yolov3 model, which must detect one class: **Verre**, manages to detect glass bottles.
 
 But, because this model was mostly trained with beer or glass bottles and with only one labeled category, anything that looks like a bottle is categorized as **Verre**.
+
+See examples below:
+
+| ![image](https://github.com/nicolas-szb/Recycling_project/blob/master/data/detections/image_test.jpg) |
+|---|
+
+The whisky bottle is well detected as **Verre** but the plastic bottle is also detected as a glass material.
+
+| ![video](https://youtu.be/FaBtADVh6hQ) |
+|---|
+
+| ![webcam](https://youtu.be/Wt54odn6MkI) |
+|---|
+
+Glass bottles are well detected as **Verre** but plastic bottles are also detected as glass material.
