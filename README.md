@@ -114,15 +114,10 @@ But, because this model was mostly trained with beer or glass bottles and with o
 
 See examples below:
 
+Detection with image:
 | ![image](https://github.com/nicolas-szb/Recycling_project/blob/master/data/detections/image_test.jpg) |
 |---|
 
 The whisky bottle is well detected as **Verre** but the plastic bottle is also detected as a glass material.
 
-| ![video](https://youtu.be/FaBtADVh6hQ) |
-|---|
-
-| ![webcam](https://youtu.be/Wt54odn6MkI) |
-|---|
-
-Glass bottles are well detected as **Verre** but plastic bottles are also detected as glass material.
+Detection with webcam [here](https://youtu.be/Wt54odn6MkI) and with video [here](https://youtu.be/FaBtADVh6hQ): glass bottles are well detected as **Verre** but plastic bottles are also detected as glass material.
