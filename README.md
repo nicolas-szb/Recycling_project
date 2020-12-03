@@ -121,3 +121,5 @@ Detection with image:
 The whisky bottle is well detected as **Verre** but the plastic bottle is also detected as a glass material.
 
 Detection with webcam [here](https://youtu.be/Wt54odn6MkI) and with video [here](https://youtu.be/FaBtADVh6hQ): glass bottles are well detected as **Verre** but plastic bottles are also detected as glass material.
+
+The next step will be labeling more pictures and re-training my model.
